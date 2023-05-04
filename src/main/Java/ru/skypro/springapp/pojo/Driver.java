@@ -9,6 +9,10 @@ public class Driver {
         this.transport = transport;
     }
 
+    public void StartTransport() {
+        System.out.println(transport + " готов к работе под управлением водителя: " + name);
+    }
+
     @Override
     public String toString() {
         return "Driver{" +
